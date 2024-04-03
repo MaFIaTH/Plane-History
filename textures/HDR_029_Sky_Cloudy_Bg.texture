@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "HDR_029_Sky_Cloudy_Bg",
+  "identifier": "texture:23116-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "82a8e55e72ca5f298bafe36fdb91c5f0",
+  "assetLocator": "textures/HDR_029_Sky_Cloudy_Bg.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "82a8e55e72ca5f298bafe36fdb91c5f0",
+      "colorCount": 30342,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 13.262185004436631,
+      "pixelsHigh": 512,
+      "pixelsWide": 1024
+    }
+  ]
+}

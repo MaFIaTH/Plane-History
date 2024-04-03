@@ -1,0 +1,27 @@
+{
+  "modelName": "texture",
+  "name": "office_preview",
+  "identifier": "texture:666-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "667-b15b7add-98a3-4b09-a2e7-0f7811008bf4.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "equirectangular",
+  "excludeDuringExport": true,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:669-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+    "textureExportConfig:671-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+    "textureExportConfig:673-b15b7add-98a3-4b09-a2e7-0f7811008bf4"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "clamp",
+  "width": 512
+}

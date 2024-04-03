@@ -22,23 +22,53 @@
   "objects": [
     {
       "modelName": "assets_config_model",
-      "identifier": "assets_config_model:195-e658e7a3-e64d-4d64-b933-f7b32a27c7df"
+      "identifier": "assets_config_model:195-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
+      "categoriesOrder": [
+        "textures"
+      ]
     }
   ],
   "projectFormatType": "separated_files",
   "usingPatchesV2": true,
   "visual_programming": {
-    "graphs": [
-      {
-        "modelName": "patch_graph",
-        "identifier": "patch_graph:90-e658e7a3-e64d-4d64-b933-f7b32a27c7df"
-      }
-    ]
+    "sectionFileLocation": "Plane History.patches"
   },
   "children": [
     {
       "modelName": "textures",
-      "identifier": "textures:10-e658e7a3-e64d-4d64-b933-f7b32a27c7df"
+      "identifier": "textures:10-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
+      "defaultEnvironmentTexture": "environment_texture_model:684-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+      "children": [
+        {
+          "sectionFileLocation": "textures/DiffuseEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/PreviewEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "modelName": "environment_texture_model",
+          "name": "Default environment texture",
+          "identifier": "environment_texture_model:684-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "diffuseEnvironmentTextureIdentifier": "textures/DiffuseEnvironment.texture",
+          "previewEnvironmentTextureIdentifier": "textures/PreviewEnvironment.texture",
+          "specularEnvironmentTextureIdentifier": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/wright-brothers-gettyimages-489850565.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Sky-096.texture"
+        },
+        {
+          "sectionFileLocation": "textures/approaching-storm_3_orig.texture"
+        },
+        {
+          "sectionFileLocation": "textures/HDR_029_Sky_Cloudy_Bg.texture"
+        }
+      ]
     },
     {
       "sectionFileLocation": "Plane History.scene"
@@ -71,7 +101,60 @@
     },
     {
       "modelName": "exportConfig",
-      "identifier": "exportConfig:48-e658e7a3-e64d-4d64-b933-f7b32a27c7df"
+      "identifier": "exportConfig:48-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:660-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:662-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:664-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:669-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:671-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:673-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:678-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:680-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:682-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "accuracy": "best",
+          "targetFormat": 1
+        }
+      ]
     },
     {
       "modelName": "manifest",
@@ -140,7 +223,7 @@
       "effectUsesCameraControl": false,
       "effectUsesCameraInfoScriptingModule": false,
       "effectUsesCameraShare": false,
-      "effectUsesComponentEvaluation": false,
+      "effectUsesComponentEvaluation": true,
       "effectUsesComposedLocally": false,
       "effectUsesComposedMaterial": false,
       "effectUsesControllers": false,
@@ -156,7 +239,7 @@
       "effectUsesDepth": false,
       "effectUsesDepthData": false,
       "effectUsesDepthShaderRead": false,
-      "effectUsesDeviceMotion": false,
+      "effectUsesDeviceMotion": true,
       "effectUsesDiagnosticsScriptingModule": false,
       "effectUsesDirectionalLightEstimation": false,
       "effectUsesDspAudioAnalyzer": false,
@@ -221,8 +304,8 @@
       "effectUsesIdTracker": false,
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
-      "effectUsesImageBasedLighting": false,
-      "effectUsesInstruction": false,
+      "effectUsesImageBasedLighting": true,
+      "effectUsesInstruction": true,
       "effectUsesIntent": false,
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
@@ -240,7 +323,7 @@
       "effectUsesMaxParticipants": false,
       "effectUsesMicrophone": false,
       "effectUsesMicrophoneV2": false,
-      "effectUsesMovingTargetTracking": false,
+      "effectUsesMovingTargetTracking": true,
       "effectUsesMultipeer": false,
       "effectUsesMultipeerMessaging": false,
       "effectUsesMultiplane": false,
@@ -262,7 +345,7 @@
       "effectUsesOpticalFlow": false,
       "effectUsesOpusCodec": false,
       "effectUsesOverlayOutput": false,
-      "effectUsesPBRMaterial": false,
+      "effectUsesPBRMaterial": true,
       "effectUsesParticipant": false,
       "effectUsesParticleSystem": false,
       "effectUsesPeerOutput": false,
@@ -336,9 +419,9 @@
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
       "effectUsesUiPlanarBackend": false,
-      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesUnifiedTargetTracking": true,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": false,
+      "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
       "effectUsesVisualShaders": false,
       "effectUsesVisualShadersSdf": false,
@@ -384,7 +467,9 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": null,
+      "manuallyEnabledItemsIds": [
+        "effectUsesDeviceMotion"
+      ],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -444,6 +529,178 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:189-e658e7a3-e64d-4d64-b933-f7b32a27c7df"
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:50-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+      "children": [
+        {
+          "sectionFileLocation": "objects/scene(1)/Scene_-_Root.material"
+        },
+        {
+          "sectionFileLocation": "objects/HiresSphere/HiresSphere_mat.material"
+        }
+      ]
+    },
+    {
+      "modelName": "prefabs",
+      "identifier": "prefabs:52-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+      "children": [
+        {
+          "modelName": "gltf",
+          "name": "Object_4",
+          "identifier": "gltf:10684-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "sourceIdentifier": "master3_d_object_model:10716-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "assetLocator": "10685-b15b7add-98a3-4b09-a2e7-0f7811008bf4.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_6",
+          "identifier": "gltf:10698-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "sourceIdentifier": "master3_d_object_model:10716-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "assetLocator": "10699-b15b7add-98a3-4b09-a2e7-0f7811008bf4.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object_8",
+          "identifier": "gltf:10710-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "sourceIdentifier": "master3_d_object_model:10716-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "assetLocator": "10711-b15b7add-98a3-4b09-a2e7-0f7811008bf4.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "HiresSphere",
+          "identifier": "gltf:20638-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "sourceIdentifier": "master3_d_object_model:20644-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "assetLocator": "20639-b15b7add-98a3-4b09-a2e7-0f7811008bf4.glb",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "3_d_objects_model",
+      "identifier": "3_d_objects_model:54-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+      "children": [
+        {
+          "sectionFileLocation": "objects/scene(1)/scene.object"
+        },
+        {
+          "sectionFileLocation": "objects/HiresSphere/HiresSphere.object"
+        }
+      ]
+    },
+    {
+      "modelName": "asset_collections_model",
+      "identifier": "asset_collections_model:58-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+      "children": [
+        {
+          "modelName": "asset_collection_model",
+          "name": "1903 Wright Flyer I - Stormworks",
+          "identifier": "asset_collection_model:10720-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "applicationData": [],
+          "assetDataHash": "f29dc13e912ca91276e77e9fd9609b02",
+          "assetLocator": "objects/scene(1)/scene.gltf",
+          "authoringTool": "Sketchfab-15.79.0",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/sketchfab/three_d_object/38b91a9a0e784829ba96daafa8d77f76",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "f29dc13e912ca91276e77e9fd9609b02",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:10718-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+              "namesForFeatureType": {
+                "Material": [
+                  "Scene_-_Root"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "scene",
+              "identifier": "file_reference_model:10722-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+              "sourceIdentifier": "asset_collection_model:10720-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+              "assetDataHash": "4a71eb1efda518fbc8e10040741b14e6",
+              "assetLocator": "objects/scene(1)/scene.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "HiresSphere",
+          "identifier": "asset_collection_model:20648-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "applicationData": [],
+          "assetDataHash": "adb002820843bc32f181c40f61e8bc81",
+          "assetLocator": "objects/HiresSphere/HiresSphere.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v1.0.5",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/three_d_object/216224789630166",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "adb002820843bc32f181c40f61e8bc81",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:20646-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+              "namesForFeatureType": {
+                "Material": [
+                  "HiresSphere_mat"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "asset_attributions_model",
+      "identifier": "asset_attributions_model:76-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+      "children": [
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:10724-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "assetAuthor": "Thales",
+          "assetModelIdentifier": "asset_collection_model:10720-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "assetTitle": "1903 Wright Flyer I - Stormworks",
+          "assetURLString": "https://sketchfab.com/3d-models/1903-wright-flyer-i-stormworks-38b91a9a0e784829ba96daafa8d77f76",
+          "licenseModelIdentifier": "license_model:5478-b15b7add-98a3-4b09-a2e7-0f7811008bf4"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:20652-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "assetAuthor": "Spark AR Assets",
+          "assetModelIdentifier": "asset_collection_model:20648-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "assetTitle": "Hires Sphere Primitive",
+          "assetURLString": "",
+          "licenseModelIdentifier": "license_model:20650-b15b7add-98a3-4b09-a2e7-0f7811008bf4"
+        }
+      ]
+    },
+    {
+      "modelName": "licenses_model",
+      "identifier": "licenses_model:78-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+      "children": [
+        {
+          "modelName": "license_model",
+          "name": "Creative Commons Attribution",
+          "identifier": "license_model:5478-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "linkURLString": "http://creativecommons.org/licenses/by/4.0/",
+          "slug": "by"
+        },
+        {
+          "modelName": "license_model",
+          "name": "Creative Commons Attribution 4.0",
+          "identifier": "license_model:20650-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+          "linkURLString": "https://creativecommons.org/licenses/by/4.0/",
+          "slug": "CC BY 4.0"
+        }
+      ]
     }
   ]
 }

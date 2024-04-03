@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Sky-096",
+  "identifier": "texture:22224-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "d36946d4933d1c723516e28c0cf2863c",
+  "assetLocator": "textures/Sky-096.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 681,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "d36946d4933d1c723516e28c0cf2863c",
+      "colorCount": 28167,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 11.451525178169208,
+      "pixelsHigh": 681,
+      "pixelsWide": 1024
+    }
+  ]
+}
