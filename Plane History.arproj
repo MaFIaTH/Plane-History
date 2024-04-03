@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
   "id": "2e658e7a3e64d4d64b933f7b32a27c7df",
-  "revision": "3e658e7a3e64d4d64b933f7b32a27c7df",
+  "revision": "34067b15b7add98a34b09a2e70f7811008bf4",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -37,33 +37,9 @@
     {
       "modelName": "textures",
       "identifier": "textures:10-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
-      "defaultEnvironmentTexture": "environment_texture_model:684-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
       "children": [
         {
-          "sectionFileLocation": "textures/DiffuseEnvironment.texture"
-        },
-        {
-          "sectionFileLocation": "textures/PreviewEnvironment.texture"
-        },
-        {
-          "sectionFileLocation": "textures/SpecularEnvironment.texture"
-        },
-        {
-          "modelName": "environment_texture_model",
-          "name": "Default environment texture",
-          "identifier": "environment_texture_model:684-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "diffuseEnvironmentTextureIdentifier": "textures/DiffuseEnvironment.texture",
-          "previewEnvironmentTextureIdentifier": "textures/PreviewEnvironment.texture",
-          "specularEnvironmentTextureIdentifier": "textures/SpecularEnvironment.texture"
-        },
-        {
           "sectionFileLocation": "textures/wright-brothers-gettyimages-489850565.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Sky-096.texture"
-        },
-        {
-          "sectionFileLocation": "textures/approaching-storm_3_orig.texture"
         },
         {
           "sectionFileLocation": "textures/HDR_029_Sky_Cloudy_Bg.texture"
@@ -101,60 +77,7 @@
     },
     {
       "modelName": "exportConfig",
-      "identifier": "exportConfig:48-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
-      "children": [
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:660-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:662-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:664-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:669-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:671-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:673-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:678-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:680-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:682-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "accuracy": "best",
-          "targetFormat": 1
-        }
-      ]
+      "identifier": "exportConfig:48-e658e7a3-e64d-4d64-b933-f7b32a27c7df"
     },
     {
       "modelName": "manifest",
