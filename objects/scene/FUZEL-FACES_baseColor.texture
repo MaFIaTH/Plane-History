@@ -1,0 +1,37 @@
+{
+  "modelName": "dependent_texture_model",
+  "name": "FUZEL-FACES_baseColor",
+  "identifier": "dependent_texture_model:1033-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "b56eeecb75fe6f8ae12e958ba08c3878.png",
+  "colorEncoding": "srgb",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "originalFileHash": "d1f4dd105892e6200d50c0bbd4b98a05",
+  "originalFileReference": "file_reference_model:1921-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "repeat",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "b56eeecb75fe6f8ae12e958ba08c3878",
+      "colorCount": 11348,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 3.268106610116141,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

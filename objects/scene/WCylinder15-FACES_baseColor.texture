@@ -1,0 +1,37 @@
+{
+  "modelName": "dependent_texture_model",
+  "name": "WCylinder15-FACES_baseColor",
+  "identifier": "dependent_texture_model:977-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "653dd6fcbaa4257547494db793162a0b.png",
+  "colorEncoding": "srgb",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "originalFileHash": "53f606bd81d33095e51096bf9748d81a",
+  "originalFileReference": "file_reference_model:1911-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "repeat",
+  "width": 256,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "653dd6fcbaa4257547494db793162a0b",
+      "colorCount": 3315,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.407914466779662,
+      "pixelsHigh": 256,
+      "pixelsWide": 256
+    }
+  ]
+}

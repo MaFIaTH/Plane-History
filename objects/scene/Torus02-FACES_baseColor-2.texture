@@ -1,0 +1,37 @@
+{
+  "modelName": "dependent_texture_model",
+  "name": "Torus02-FACES_baseColor0",
+  "identifier": "dependent_texture_model:883-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "42685bea1bd1607c4644e4c92953394e.png",
+  "colorEncoding": "srgb",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 128,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "originalFileHash": "90836a056f98716fc4bfcc9e53c6c1c0",
+  "originalFileReference": "file_reference_model:1897-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "repeat",
+  "width": 128,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "42685bea1bd1607c4644e4c92953394e",
+      "colorCount": 261,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.171412765769897,
+      "pixelsHigh": 128,
+      "pixelsWide": 128
+    }
+  ]
+}

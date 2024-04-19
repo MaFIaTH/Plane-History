@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "heading-home---american-airlines-dc-3-by-stephen-brown---origina",
+  "identifier": "texture:24276-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "1bd5a63faddac744353dcca2815530cd",
+  "assetLocator": "textures/heading-home---american-airlines-dc-3-by-stephen-brown---origina.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 488,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 800,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "1bd5a63faddac744353dcca2815530cd",
+      "colorCount": 71053,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 14.799030088894725,
+      "pixelsHigh": 488,
+      "pixelsWide": 800
+    }
+  ]
+}

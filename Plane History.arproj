@@ -37,12 +37,129 @@
     {
       "modelName": "textures",
       "identifier": "textures:10-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
+      "defaultEnvironmentTexture": "environment_texture_model:1950-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
       "children": [
         {
           "sectionFileLocation": "textures/wright-brothers-gettyimages-489850565.texture"
         },
         {
           "sectionFileLocation": "textures/HDR_029_Sky_Cloudy_Bg.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Circle20-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Circle20-FACES_baseColor-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder01-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Torus02-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Torus02-FACES_baseColor-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder01-FACES_baseColor-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Torus03-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder21-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-3.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-4.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-5.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-6.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-7.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-8.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-9.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-10.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-11.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-12.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-13.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/WCylinder15-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES_baseColor-14.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/WCylinder15-FACES_baseColor-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/KRILO_OSNOVA-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder22-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder22-FACES_baseColor-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/SPHERA_PRIBOR-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/KRILO-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/VERT_OPER-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/GOR_OPER-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "objects/scene/FUZEL-FACES_baseColor.texture"
+        },
+        {
+          "sectionFileLocation": "textures/DiffuseEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/PreviewEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "modelName": "environment_texture_model",
+          "name": "Default environment texture",
+          "identifier": "environment_texture_model:1950-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "diffuseEnvironmentTextureIdentifier": "textures/DiffuseEnvironment.texture",
+          "previewEnvironmentTextureIdentifier": "textures/PreviewEnvironment.texture",
+          "specularEnvironmentTextureIdentifier": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/heading-home---american-airlines-dc-3-by-stephen-brown---origina.texture"
         }
       ]
     },
@@ -53,6 +170,13 @@
       "modelName": "layers",
       "identifier": "layers:20-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
       "children": [
+        {
+          "modelName": "layer",
+          "name": "layer1",
+          "identifier": "layer:34950-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "color": "0xffeb7dbd",
+          "generationIndex": 1
+        },
         {
           "modelName": "layer",
           "name": "layer0",
@@ -77,7 +201,60 @@
     },
     {
       "modelName": "exportConfig",
-      "identifier": "exportConfig:48-e658e7a3-e64d-4d64-b933-f7b32a27c7df"
+      "identifier": "exportConfig:48-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1926-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1928-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1930-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1935-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1937-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1939-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1944-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1946-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1948-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "accuracy": "best",
+          "targetFormat": 1
+        }
+      ]
     },
     {
       "modelName": "manifest",
@@ -462,6 +639,165 @@
         },
         {
           "sectionFileLocation": "objects/HiresSphere/HiresSphere_mat.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Circle21-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Circle20-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder39-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Torus04-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Torus02-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder08-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder09-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder06-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder01-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder02-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Torus03-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder21-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Box03-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder10-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder03-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder38-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder37-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder36-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder34-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder32-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder18-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder25-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder26-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder28-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder29-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder30-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder04-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder24-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Object06-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Object05-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Object04-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Object03-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Object02-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Object01-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/WCylinder01-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder33-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder17-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Sphere03-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder11-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Sphere02-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/WCylinder15-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/KRILO_OSNOVA-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Tube01-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder19-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Tube02-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/Cylinder22-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/ILL_PASS-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/ANTENNA_1-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/SPHERA_PRIBOR-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/KRILO-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/VERT_OPER-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/GOR_OPER-FACES.material"
+        },
+        {
+          "sectionFileLocation": "objects/scene/FUZEL-FACES.material"
         }
       ]
     },
@@ -500,6 +836,430 @@
           "sourceIdentifier": "master3_d_object_model:20644-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "assetLocator": "20639-b15b7add-98a3-4b09-a2e7-0f7811008bf4.glb",
           "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Circle21-FACES",
+          "identifier": "gltf:1049-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1050-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Circle20-FACES",
+          "identifier": "gltf:1065-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1066-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder39-FACES",
+          "identifier": "gltf:1081-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1082-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Torus04-FACES",
+          "identifier": "gltf:1097-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1098-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Torus02-FACES",
+          "identifier": "gltf:1113-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1114-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder08-FACES",
+          "identifier": "gltf:1129-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1130-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder09-FACES",
+          "identifier": "gltf:1145-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1146-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder06-FACES",
+          "identifier": "gltf:1161-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1162-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder01-FACES",
+          "identifier": "gltf:1177-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1178-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder02-FACES",
+          "identifier": "gltf:1193-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1194-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Torus03-FACES",
+          "identifier": "gltf:1209-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1210-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder21-FACES",
+          "identifier": "gltf:1225-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1226-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Box03-FACES",
+          "identifier": "gltf:1241-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1242-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder10-FACES",
+          "identifier": "gltf:1257-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1258-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder03-FACES",
+          "identifier": "gltf:1273-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1274-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder38-FACES",
+          "identifier": "gltf:1289-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1290-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder37-FACES",
+          "identifier": "gltf:1305-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1306-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder36-FACES",
+          "identifier": "gltf:1321-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1322-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder34-FACES",
+          "identifier": "gltf:1337-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1338-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder32-FACES",
+          "identifier": "gltf:1353-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1354-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder18-FACES",
+          "identifier": "gltf:1369-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1370-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder25-FACES",
+          "identifier": "gltf:1385-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1386-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder26-FACES",
+          "identifier": "gltf:1401-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1402-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder28-FACES",
+          "identifier": "gltf:1417-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1418-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder29-FACES",
+          "identifier": "gltf:1433-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1434-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder30-FACES",
+          "identifier": "gltf:1449-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1450-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder04-FACES",
+          "identifier": "gltf:1465-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1466-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder24-FACES",
+          "identifier": "gltf:1481-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1482-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object06-FACES",
+          "identifier": "gltf:1497-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1498-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object05-FACES",
+          "identifier": "gltf:1513-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1514-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object04-FACES",
+          "identifier": "gltf:1529-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1530-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object03-FACES",
+          "identifier": "gltf:1545-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1546-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object02-FACES",
+          "identifier": "gltf:1561-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1562-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Object01-FACES",
+          "identifier": "gltf:1577-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1578-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "WCylinder01-FACES",
+          "identifier": "gltf:1593-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1594-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder33-FACES",
+          "identifier": "gltf:1609-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1610-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder17-FACES",
+          "identifier": "gltf:1625-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1626-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sphere03-FACES",
+          "identifier": "gltf:1641-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1642-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder11-FACES",
+          "identifier": "gltf:1657-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1658-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Sphere02-FACES",
+          "identifier": "gltf:1673-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1674-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "WCylinder15-FACES",
+          "identifier": "gltf:1689-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1690-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "KRILO_OSNOVA-FACES",
+          "identifier": "gltf:1705-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1706-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Tube01-FACES",
+          "identifier": "gltf:1721-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1722-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder19-FACES",
+          "identifier": "gltf:1737-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1738-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Tube02-FACES",
+          "identifier": "gltf:1753-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1754-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder22-FACES",
+          "identifier": "gltf:1769-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1770-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "ILL_PASS-FACES",
+          "identifier": "gltf:1785-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1786-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "ANTENNA_1-FACES",
+          "identifier": "gltf:1801-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1802-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "SPHERA_PRIBOR-FACES",
+          "identifier": "gltf:1817-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1818-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "KRILO-FACES",
+          "identifier": "gltf:1833-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1834-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "VERT_OPER-FACES",
+          "identifier": "gltf:1849-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1850-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "GOR_OPER-FACES",
+          "identifier": "gltf:1865-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1866-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "FUZEL-FACES",
+          "identifier": "gltf:1881-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "sourceIdentifier": "master3_d_object_model:1887-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetLocator": "1882-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e.glb",
+          "isExternalAsset": false
         }
       ]
     },
@@ -512,6 +1272,9 @@
         },
         {
           "sectionFileLocation": "objects/HiresSphere/HiresSphere.object"
+        },
+        {
+          "sectionFileLocation": "objects/scene/scene.object"
         }
       ]
     },
@@ -524,7 +1287,7 @@
           "name": "1903 Wright Flyer I - Stormworks",
           "identifier": "asset_collection_model:10720-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "applicationData": [],
-          "assetDataHash": "f29dc13e912ca91276e77e9fd9609b02",
+          "assetDataHash": "bf194a80d3fcf91d6e12eecb6d49aa38",
           "assetLocator": "objects/scene(1)/scene.gltf",
           "authoringTool": "Sketchfab-15.79.0",
           "excludeDuringExport": true,
@@ -559,7 +1322,7 @@
           "name": "HiresSphere",
           "identifier": "asset_collection_model:20648-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "applicationData": [],
-          "assetDataHash": "adb002820843bc32f181c40f61e8bc81",
+          "assetDataHash": "6f30cee781dd63085199447da2e611a0",
           "assetLocator": "objects/HiresSphere/HiresSphere.gltf",
           "authoringTool": "Khronos glTF Blender I/O v1.0.5",
           "excludeDuringExport": true,
@@ -576,6 +1339,267 @@
                   "HiresSphere_mat"
                 ]
               }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "Dc3",
+          "identifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "applicationData": [],
+          "assetDataHash": "607b6298ae4b79e7d2f3e299bb14a179",
+          "assetLocator": "objects/scene/scene.gltf",
+          "authoringTool": "Sketchfab-12.68.0",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/sketchfab/three_d_object/1668ac86c20b4c3eb2a04d22959a87e1",
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "607b6298ae4b79e7d2f3e299bb14a179",
+          "textures": [
+            "objects/scene/Circle20-FACES_baseColor-2.texture",
+            "objects/scene/Circle20-FACES_baseColor.texture",
+            "objects/scene/Cylinder01-FACES_baseColor-2.texture",
+            "objects/scene/Cylinder01-FACES_baseColor.texture",
+            "objects/scene/Cylinder21-FACES_baseColor.texture",
+            "objects/scene/Cylinder22-FACES_baseColor-2.texture",
+            "objects/scene/Cylinder22-FACES_baseColor.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-10.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-11.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-12.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-13.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-14.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-2.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-3.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-4.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-5.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-6.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-7.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-8.texture",
+            "objects/scene/Cylinder24-FACES_baseColor-9.texture",
+            "objects/scene/Cylinder24-FACES_baseColor.texture",
+            "objects/scene/FUZEL-FACES_baseColor.texture",
+            "objects/scene/GOR_OPER-FACES_baseColor.texture",
+            "objects/scene/KRILO-FACES_baseColor.texture",
+            "objects/scene/KRILO_OSNOVA-FACES_baseColor.texture",
+            "objects/scene/SPHERA_PRIBOR-FACES_baseColor.texture",
+            "objects/scene/Torus02-FACES_baseColor-2.texture",
+            "objects/scene/Torus02-FACES_baseColor.texture",
+            "objects/scene/Torus03-FACES_baseColor.texture",
+            "objects/scene/VERT_OPER-FACES_baseColor.texture",
+            "objects/scene/WCylinder15-FACES_baseColor-2.texture",
+            "objects/scene/WCylinder15-FACES_baseColor.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:1889-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "namesForFeatureType": {
+                "Material": [
+                  "Circle21-FACES",
+                  "Circle20-FACES",
+                  "Object03-FACES",
+                  "Cylinder39-FACES",
+                  "Torus04-FACES",
+                  "Cylinder09-FACES",
+                  "Torus02-FACES",
+                  "VERT_OPER-FACES",
+                  "Torus03-FACES",
+                  "Cylinder08-FACES",
+                  "Cylinder06-FACES",
+                  "Cylinder01-FACES",
+                  "Cylinder02-FACES",
+                  "WCylinder15-FACES",
+                  "Cylinder21-FACES",
+                  "Cylinder22-FACES",
+                  "Box03-FACES",
+                  "Sphere02-FACES",
+                  "Cylinder10-FACES",
+                  "Cylinder03-FACES",
+                  "ANTENNA_1-FACES",
+                  "Object02-FACES",
+                  "Cylinder38-FACES",
+                  "Cylinder37-FACES",
+                  "KRILO-FACES",
+                  "Cylinder36-FACES",
+                  "Cylinder34-FACES",
+                  "Cylinder32-FACES",
+                  "Cylinder18-FACES",
+                  "Cylinder25-FACES",
+                  "Cylinder26-FACES",
+                  "Cylinder28-FACES",
+                  "Cylinder29-FACES",
+                  "Cylinder30-FACES",
+                  "Cylinder04-FACES",
+                  "SPHERA_PRIBOR-FACES",
+                  "Cylinder24-FACES",
+                  "Object06-FACES",
+                  "Object05-FACES",
+                  "Object04-FACES",
+                  "Object01-FACES",
+                  "WCylinder01-FACES",
+                  "Cylinder33-FACES",
+                  "KRILO_OSNOVA-FACES",
+                  "Cylinder17-FACES",
+                  "Cylinder11-FACES",
+                  "Sphere03-FACES",
+                  "Tube01-FACES",
+                  "Cylinder19-FACES",
+                  "Tube02-FACES",
+                  "ILL_PASS-FACES",
+                  "GOR_OPER-FACES",
+                  "FUZEL-FACES"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "scene",
+              "identifier": "file_reference_model:1893-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "58bc13befb0d670eb999894a63de4ae6",
+              "assetLocator": "objects/scene/scene.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "Circle20-FACES_baseColor",
+              "identifier": "file_reference_model:1895-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "d12a0f509e767b09f0999eb52dbb1f4f",
+              "assetLocator": "objects/scene/textures/Circle20-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "Torus02-FACES_baseColor",
+              "identifier": "file_reference_model:1897-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "90836a056f98716fc4bfcc9e53c6c1c0",
+              "assetLocator": "objects/scene/textures/Torus02-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "Cylinder01-FACES_baseColor",
+              "identifier": "file_reference_model:1899-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "16bd521dcfd3bb8c5953c818130548a0",
+              "assetLocator": "objects/scene/textures/Cylinder01-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "KRILO_OSNOVA-FACES_baseColor",
+              "identifier": "file_reference_model:1901-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "c65205e498744a7282991d4c79aac7ed",
+              "assetLocator": "objects/scene/textures/KRILO_OSNOVA-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "VERT_OPER-FACES_baseColor",
+              "identifier": "file_reference_model:1903-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "b029e8561893d66f9797d94d87369460",
+              "assetLocator": "objects/scene/textures/VERT_OPER-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "Cylinder22-FACES_baseColor",
+              "identifier": "file_reference_model:1905-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "2498eec9399bf27177a8b6bdb93d257c",
+              "assetLocator": "objects/scene/textures/Cylinder22-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "Torus03-FACES_baseColor",
+              "identifier": "file_reference_model:1907-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "2e1b103ef06d2a28748f288c6c10fc87",
+              "assetLocator": "objects/scene/textures/Torus03-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "Cylinder21-FACES_baseColor",
+              "identifier": "file_reference_model:1909-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "9a5bbf9643b3ba86d0d196a287de6e22",
+              "assetLocator": "objects/scene/textures/Cylinder21-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "WCylinder15-FACES_baseColor",
+              "identifier": "file_reference_model:1911-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "53f606bd81d33095e51096bf9748d81a",
+              "assetLocator": "objects/scene/textures/WCylinder15-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "SPHERA_PRIBOR-FACES_baseColor",
+              "identifier": "file_reference_model:1913-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "c97264179287238592ac578b32e7565b",
+              "assetLocator": "objects/scene/textures/SPHERA_PRIBOR-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "Cylinder24-FACES_baseColor",
+              "identifier": "file_reference_model:1915-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "a97e706b84912e83aa6e78a7b5e05325",
+              "assetLocator": "objects/scene/textures/Cylinder24-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "KRILO-FACES_baseColor",
+              "identifier": "file_reference_model:1917-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "4b7d6684b7e807efd1cb25b48e84ef71",
+              "assetLocator": "objects/scene/textures/KRILO-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "GOR_OPER-FACES_baseColor",
+              "identifier": "file_reference_model:1919-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "88f2cfb6a37b84247c96ad5e214e5ac0",
+              "assetLocator": "objects/scene/textures/GOR_OPER-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "FUZEL-FACES_baseColor",
+              "identifier": "file_reference_model:1921-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "sourceIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+              "assetDataHash": "d1f4dd105892e6200d50c0bbd4b98a05",
+              "assetLocator": "objects/scene/textures/FUZEL-FACES_baseColor.jpeg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
             }
           ]
         }
@@ -602,6 +1626,15 @@
           "assetTitle": "Hires Sphere Primitive",
           "assetURLString": "",
           "licenseModelIdentifier": "license_model:20650-b15b7add-98a3-4b09-a2e7-0f7811008bf4"
+        },
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:1952-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetAuthor": "manilov.ap",
+          "assetModelIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
+          "assetTitle": "Dc3",
+          "assetURLString": "https://sketchfab.com/3d-models/dc3-1668ac86c20b4c3eb2a04d22959a87e1",
+          "licenseModelIdentifier": "license_model:5478-b15b7add-98a3-4b09-a2e7-0f7811008bf4"
         }
       ]
     },
