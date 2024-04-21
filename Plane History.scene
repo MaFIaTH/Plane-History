@@ -8644,7 +8644,7 @@
     },
     {
       "modelName": "moving_target_tracker_model",
-      "name": "BoingTarget",
+      "name": "BoeingTarget",
       "identifier": "moving_target_tracker_mode36088-4e9cf31b-57ad-4d59-a258-c1137d0a3786",
       "animationMask": {
         "position": false,
