@@ -2,22 +2,22 @@
   "_metaHeader": "(c) Meta Platforms, Inc. and affiliates. Confidential and proprietary.",
   "compilerOptions": {
     "allowJs": true,
-    "baseUrl": "C:/Users/thesi/AppData/Local/Facebook/Spark AR Studio/cache/Scripting",
+    "baseUrl": "C:/Users/Admin/AppData/Local/Facebook/Spark AR Studio/cache/Scripting",
     "checkJs": false,
     "esModuleInterop": true,
     "lib": [
       "ES2019"
     ],
-    "outDir": "C:/Users/thesi/AppData/Local/Facebook/Spark AR Studio/cache/Scripting/out-dir",
+    "outDir": "C:/Users/Admin/AppData/Local/Facebook/Spark AR Studio/cache/Scripting/out-dir",
     "paths": {
       "*": [
-        "skylight-typedefs/effect/2ad39e925a2ddd0b/*",
+        "skylight-typedefs/effect/a558ebced5513163/*",
         "skylight-node_modules/*"
       ]
     },
     "target": "es5",
     "typeRoots": [
-      "C:/Users/thesi/AppData/Local/Facebook/Spark AR Studio/cache/Scripting/skylight-node_modules/@types"
+      "C:/Users/Admin/AppData/Local/Facebook/Spark AR Studio/cache/Scripting/skylight-node_modules/@types"
     ],
     "types": [
       "node"

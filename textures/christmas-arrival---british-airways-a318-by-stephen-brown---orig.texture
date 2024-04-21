@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "christmas-arrival---british-airways-a318-by-stephen-brown---orig",
+  "identifier": "texture:8998-4e9cf31b-57ad-4d59-a258-c1137d0a3786",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "941709144fd62c201c4826285856f38d",
+  "assetLocator": "textures/christmas-arrival---british-airways-a318-by-stephen-brown---orig.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 488,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 800,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "941709144fd62c201c4826285856f38d",
+      "colorCount": 43969,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 13.91943806293311,
+      "pixelsHigh": 488,
+      "pixelsWide": 800
+    }
+  ]
+}
