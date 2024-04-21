@@ -171,6 +171,52 @@
                     "y": 0.25,
                     "z": 0.3
                   }
+                },
+                {
+                  "modelName": "audiosource",
+                  "name": "Narrator",
+                  "identifier": "audiosource:22975-778a727d-efac-48ec-a793-72873c0a5840",
+                  "ambient": false,
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "backedByPlaybackController": false,
+                  "cameraVisibility": "back|front",
+                  "distanceToMaxVolume": 0.2,
+                  "distanceToMinVolume": 4,
+                  "hidden": false,
+                  "layerIdentifier": "layer1",
+                  "manualAudioOverrideEnableCapture": "no_override",
+                  "manualAudioOverrideEnableRender": "no_override",
+                  "needsContinuousLooping": false,
+                  "needsContinuousPlaying": false,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "type": "none",
+                  "vocoderInput": false,
+                  "volume": 1,
+                  "volumeMax": 1,
+                  "volumeMin": 0,
+                  "children": [
+                    {
+                      "modelName": "audioTransforms",
+                      "identifier": "audioTransforms:22977-778a727d-efac-48ec-a793-72873c0a5840"
+                    }
+                  ]
                 }
               ]
             }
@@ -295,7 +341,7 @@
     },
     {
       "modelName": "moving_target_tracker_model",
-      "name": "targetTracker0",
+      "name": "WrightTarget",
       "identifier": "moving_target_tracker_model:307-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
       "animationMask": {
         "position": false,
@@ -591,7 +637,7 @@
     },
     {
       "modelName": "moving_target_tracker_model",
-      "name": "targetTracker1",
+      "name": "DC3Target",
       "identifier": "moving_target_tracker_mode25797-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
       "animationMask": {
         "position": false,
@@ -619,7 +665,7 @@
       "targetTextureIdentifier": "texture:24276-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
       "targetWidth": 0.30000001192092896,
       "transform": {
-        "rx": -0,
+        "rx": 0,
         "ry": -0.4657602906227112,
         "rz": 0,
         "sx": 1,

@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
   "id": "2e658e7a3e64d4d64b933f7b32a27c7df",
-  "revision": "34067b15b7add98a34b09a2e70f7811008bf4",
+  "revision": "651002778a727defac48eca79372873c0a5840",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -24,7 +24,10 @@
       "modelName": "assets_config_model",
       "identifier": "assets_config_model:195-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
       "categoriesOrder": [
-        "textures"
+        "textures",
+        "blocks",
+        "audio",
+        "scripts"
       ]
     }
   ],
@@ -160,6 +163,12 @@
         },
         {
           "sectionFileLocation": "textures/heading-home---american-airlines-dc-3-by-stephen-brown---origina.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Thai_icon.texture"
+        },
+        {
+          "sectionFileLocation": "textures/English_icon.texture"
         }
       ]
     },
@@ -191,7 +200,59 @@
       "children": [
         {
           "modelName": "script_bridging_variables_model",
-          "identifier": "script_bridging_variables_model:38-e658e7a3-e64d-4d64-b933-f7b32a27c7df"
+          "identifier": "script_bridging_variables_model:38-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
+          "scriptVariables": [
+            "script_patch_read_variable_model:386279-778a727d-efac-48ec-a793-72873c0a5840",
+            "script_patch_read_variable_model:88198-778a727d-efac-48ec-a793-72873c0a5840",
+            "script_patch_write_variable_model:282365-778a727d-efac-48ec-a793-72873c0a5840",
+            "script_patch_write_variable_model:284477-778a727d-efac-48ec-a793-72873c0a5840",
+            "script_patch_write_variable_model:484859-778a727d-efac-48ec-a793-72873c0a5840",
+            "script_patch_write_variable_model:90290-778a727d-efac-48ec-a793-72873c0a5840"
+          ],
+          "children": [
+            {
+              "modelName": "script_patch_read_variable_model",
+              "name": "finalAudioIndex",
+              "identifier": "script_patch_read_variable_model:88198-778a727d-efac-48ec-a793-72873c0a5840"
+            },
+            {
+              "modelName": "script_patch_write_variable_model",
+              "name": "languageIndex",
+              "identifier": "script_patch_write_variable_model:90290-778a727d-efac-48ec-a793-72873c0a5840"
+            },
+            {
+              "modelName": "script_patch_write_variable_model",
+              "name": "wrightFound",
+              "identifier": "script_patch_write_variable_model:282365-778a727d-efac-48ec-a793-72873c0a5840",
+              "type": "boolean"
+            },
+            {
+              "modelName": "script_patch_write_variable_model",
+              "name": "dc3Found",
+              "identifier": "script_patch_write_variable_model:284477-778a727d-efac-48ec-a793-72873c0a5840",
+              "type": "boolean"
+            },
+            {
+              "modelName": "script_patch_read_variable_model",
+              "name": "resetAudio",
+              "identifier": "script_patch_read_variable_model:386279-778a727d-efac-48ec-a793-72873c0a5840",
+              "type": "trigger"
+            },
+            {
+              "modelName": "script_patch_write_variable_model",
+              "name": "boeingFound",
+              "identifier": "script_patch_write_variable_model:484859-778a727d-efac-48ec-a793-72873c0a5840",
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "modelName": "script",
+          "name": "language_change",
+          "identifier": "script:77628-778a727d-efac-48ec-a793-72873c0a5840",
+          "assetDataHash": "ddc1d8be46f8671a9f81130beab19354",
+          "assetLocator": "scripts/language_change.js",
+          "isExternalAsset": true
         }
       ]
     },
@@ -253,6 +314,40 @@
           "identifier": "textureExportConfig:1948-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
           "accuracy": "best",
           "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:51161-778a727d-efac-48ec-a793-72873c0a5840",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:53259-778a727d-efac-48ec-a793-72873c0a5840",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:55359-778a727d-efac-48ec-a793-72873c0a5840",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:57461-778a727d-efac-48ec-a793-72873c0a5840",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:59565-778a727d-efac-48ec-a793-72873c0a5840",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:61671-778a727d-efac-48ec-a793-72873c0a5840",
+          "method": "fastest"
         }
       ]
     },
@@ -281,9 +376,9 @@
       "effectDisablesMicrophone": false,
       "effectForceAsyncScripting": false,
       "effectForcesSynchronousScripting": false,
-      "effectHasAmbientAudio": false,
+      "effectHasAmbientAudio": true,
       "effectHasAudioGraphApi": false,
-      "effectHasTriggeredAudio": false,
+      "effectHasTriggeredAudio": true,
       "effectImageAntiAliasingEdgeSharpness": 0.5,
       "effectImageAntiAliasingEdgeThreshold": 0.5,
       "effectImageAntiAliasingTechnique": "fxaa",
@@ -300,7 +395,7 @@
       "effectUsesAnimationScriptingModule": false,
       "effectUsesAppLauncher": false,
       "effectUsesAssistant": false,
-      "effectUsesAudio": false,
+      "effectUsesAudio": true,
       "effectUsesAudioLegacyMicFork": false,
       "effectUsesAudioMixer": false,
       "effectUsesAudioSpatialEmitter": false,
@@ -313,7 +408,7 @@
       "effectUsesAutomaticAlphaSort": false,
       "effectUsesAutomaticInstructions": true,
       "effectUsesBlockModulesConfigExtras": false,
-      "effectUsesBlocks": false,
+      "effectUsesBlocks": true,
       "effectUsesBlocksDownloadable": false,
       "effectUsesBlocksScripting": false,
       "effectUsesBodyTracking": false,
@@ -339,8 +434,8 @@
       "effectUsesDepth": false,
       "effectUsesDepthData": false,
       "effectUsesDepthShaderRead": false,
-      "effectUsesDeviceMotion": true,
-      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDeviceMotion": false,
+      "effectUsesDiagnosticsScriptingModule": true,
       "effectUsesDirectionalLightEstimation": false,
       "effectUsesDspAudioAnalyzer": false,
       "effectUsesDspBitCrusher": false,
@@ -410,11 +505,11 @@
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
       "effectUsesIrisTracking": false,
-      "effectUsesJavaScript": false,
+      "effectUsesJavaScript": true,
       "effectUsesJavaScriptRuntimeForPatches": false,
-      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptScripting": true,
       "effectUsesJavaScriptShaders": false,
-      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesJavascriptToPatchesBridging": true,
       "effectUsesLayers": false,
       "effectUsesLocale": false,
       "effectUsesLocation": false,
@@ -430,10 +525,10 @@
       "effectUsesMultiplayer": false,
       "effectUsesMultipleRenderTargets": false,
       "effectUsesMusic": false,
-      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControl": true,
       "effectUsesNativeUIControlEditableText": false,
       "effectUsesNativeUIControlEditableTextExitCB": false,
-      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPicker": true,
       "effectUsesNativeUIControlPickerRemoteImages": false,
       "effectUsesNativeUIControlRawTextInput": false,
       "effectUsesNativeUIControlSlider": false,
@@ -472,7 +567,7 @@
       "effectUsesRGBCameraTexture": false,
       "effectUsesRTRMapping": false,
       "effectUsesRandomScriptingModule": false,
-      "effectUsesReactiveScriptingModule": false,
+      "effectUsesReactiveScriptingModule": true,
       "effectUsesRealScaleEstimation": false,
       "effectUsesRealScaleEstimationWithFallback": false,
       "effectUsesRecognition": false,
@@ -506,7 +601,7 @@
       "effectUsesStyleTransfer": false,
       "effectUsesSupportedOrientations": false,
       "effectUsesSvg": false,
-      "effectUsesSyncDomApis": false,
+      "effectUsesSyncDomApis": true,
       "effectUsesTargetRecognition": false,
       "effectUsesTextAssets": false,
       "effectUsesTextCaptions": false,
@@ -567,9 +662,7 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": [
-        "effectUsesDeviceMotion"
-      ],
+      "manuallyEnabledItemsIds": [],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -1287,7 +1380,7 @@
           "name": "1903 Wright Flyer I - Stormworks",
           "identifier": "asset_collection_model:10720-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "applicationData": [],
-          "assetDataHash": "bf194a80d3fcf91d6e12eecb6d49aa38",
+          "assetDataHash": "f29dc13e912ca91276e77e9fd9609b02",
           "assetLocator": "objects/scene(1)/scene.gltf",
           "authoringTool": "Sketchfab-15.79.0",
           "excludeDuringExport": true,
@@ -1322,7 +1415,7 @@
           "name": "HiresSphere",
           "identifier": "asset_collection_model:20648-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "applicationData": [],
-          "assetDataHash": "6f30cee781dd63085199447da2e611a0",
+          "assetDataHash": "adb002820843bc32f181c40f61e8bc81",
           "assetLocator": "objects/HiresSphere/HiresSphere.gltf",
           "authoringTool": "Khronos glTF Blender I/O v1.0.5",
           "excludeDuringExport": true,
@@ -1347,7 +1440,7 @@
           "name": "Dc3",
           "identifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
           "applicationData": [],
-          "assetDataHash": "607b6298ae4b79e7d2f3e299bb14a179",
+          "assetDataHash": "78655b431a4ec1a9a1cb3e4449ef119b",
           "assetLocator": "objects/scene/scene.gltf",
           "authoringTool": "Sketchfab-12.68.0",
           "excludeDuringExport": true,
@@ -1655,6 +1748,81 @@
           "identifier": "license_model:20650-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "linkURLString": "https://creativecommons.org/licenses/by/4.0/",
           "slug": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "modelName": "block_documents_model",
+      "identifier": "block_documents_model:1884-778a727d-efac-48ec-a793-72873c0a5840",
+      "children": [
+        {
+          "modelName": "block_model",
+          "name": "block0",
+          "identifier": "block_model:6159-778a727d-efac-48ec-a793-72873c0a5840",
+          "assetDataHash": "511f78431941eec37ff147ee7e2ee401",
+          "assetLocator": "blocks/block0/block0.arblock",
+          "excludeDuringExport": true,
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "sounds",
+      "identifier": "sounds:1888-778a727d-efac-48ec-a793-72873c0a5840",
+      "children": [
+        {
+          "modelName": "sound",
+          "name": "DC3 EN.m4a",
+          "identifier": "sound:369960-778a727d-efac-48ec-a793-72873c0a5840",
+          "assetDataHash": "d28d274c10977260a1aa239a64a61cbc",
+          "assetLocator": "sounds/DC3 EN.m4a",
+          "duration": 2815.79150390625,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "DC3 TH.m4a",
+          "identifier": "sound:369962-778a727d-efac-48ec-a793-72873c0a5840",
+          "assetDataHash": "1bcc6289b0daef28d25cb3c5622e78a6",
+          "assetLocator": "sounds/DC3 TH.m4a",
+          "duration": 3136.41650390625,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "Wright EN.m4a",
+          "identifier": "sound:369964-778a727d-efac-48ec-a793-72873c0a5840",
+          "assetDataHash": "c5c350693f6b3aea2967c14a310ebd22",
+          "assetLocator": "sounds/Wright EN.m4a",
+          "duration": 2432.41650390625,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "Wright TH.m4a",
+          "identifier": "sound:369966-778a727d-efac-48ec-a793-72873c0a5840",
+          "assetDataHash": "61494a72ff55890ac590c06a061e2a15",
+          "assetLocator": "sounds/Wright TH.m4a",
+          "duration": 2474.208251953125,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "Boeing EN.m4a",
+          "identifier": "sound:369968-778a727d-efac-48ec-a793-72873c0a5840",
+          "assetDataHash": "de840fbe57cf0a645d2e7f9402c578ad",
+          "assetLocator": "sounds/Boeing EN.m4a",
+          "duration": 2388.958251953125,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "Boeing TH.m4a",
+          "identifier": "sound:369970-778a727d-efac-48ec-a793-72873c0a5840",
+          "assetDataHash": "6c2f84382f5d31f637c16ddcb66f9d60",
+          "assetLocator": "sounds/Boeing TH.m4a",
+          "duration": 2389.04150390625,
+          "isExternalAsset": true
         }
       ]
     }

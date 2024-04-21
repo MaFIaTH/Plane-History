@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Thai_icon",
+  "identifier": "texture:38521-778a727d-efac-48ec-a793-72873c0a5840",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ac78bb40280836848b37748427790879",
+  "assetLocator": "textures/Thai_icon.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:51161-778a727d-efac-48ec-a793-72873c0a5840",
+    "textureExportConfig:53259-778a727d-efac-48ec-a793-72873c0a5840",
+    "textureExportConfig:55359-778a727d-efac-48ec-a793-72873c0a5840"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "ac78bb40280836848b37748427790879",
+      "colorCount": 1177,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.129605707761537,
+      "pixelsHigh": 512,
+      "pixelsWide": 512
+    }
+  ]
+}
