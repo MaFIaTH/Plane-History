@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
   "id": "2e658e7a3e64d4d64b933f7b32a27c7df",
-  "revision": "651002778a727defac48eca79372873c0a5840",
+  "revision": "183947212f5bf2d76341d8a475796cc3547ee5",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -25,9 +25,9 @@
       "identifier": "assets_config_model:195-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
       "categoriesOrder": [
         "textures",
-        "blocks",
-        "audio",
-        "scripts"
+        "scripts",
+        "materials",
+        "audio"
       ]
     }
   ],
@@ -42,12 +42,6 @@
       "identifier": "textures:10-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
       "defaultEnvironmentTexture": "environment_texture_model:1950-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
       "children": [
-        {
-          "sectionFileLocation": "textures/wright-brothers-gettyimages-489850565.texture"
-        },
-        {
-          "sectionFileLocation": "textures/HDR_029_Sky_Cloudy_Bg.texture"
-        },
         {
           "sectionFileLocation": "objects/scene/Circle20-FACES_baseColor.texture"
         },
@@ -172,6 +166,18 @@
         },
         {
           "sectionFileLocation": "textures/christmas-arrival---british-airways-a318-by-stephen-brown---orig.texture"
+        },
+        {
+          "sectionFileLocation": "textures/DC3 Data.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Boeing Data.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Wright Data.texture"
+        },
+        {
+          "sectionFileLocation": "textures/wright-brothers-1907-granger.texture"
         }
       ]
     },
@@ -213,6 +219,7 @@
           "identifier": "script_bridging_variables_model:38-e658e7a3-e64d-4d64-b933-f7b32a27c7df",
           "scriptVariables": [
             "script_patch_read_variable_model:386279-778a727d-efac-48ec-a793-72873c0a5840",
+            "script_patch_read_variable_model:64318-805caec5-7514-486b-87ee-17d281bd1de1",
             "script_patch_read_variable_model:88198-778a727d-efac-48ec-a793-72873c0a5840",
             "script_patch_write_variable_model:282365-778a727d-efac-48ec-a793-72873c0a5840",
             "script_patch_write_variable_model:284477-778a727d-efac-48ec-a793-72873c0a5840",
@@ -253,6 +260,12 @@
               "name": "boeingFound",
               "identifier": "script_patch_write_variable_model:484859-778a727d-efac-48ec-a793-72873c0a5840",
               "type": "boolean"
+            },
+            {
+              "modelName": "script_patch_read_variable_model",
+              "name": "planeFound",
+              "identifier": "script_patch_read_variable_model:64318-805caec5-7514-486b-87ee-17d281bd1de1",
+              "type": "boolean"
             }
           ]
         },
@@ -260,7 +273,7 @@
           "modelName": "script",
           "name": "language_change",
           "identifier": "script:77628-778a727d-efac-48ec-a793-72873c0a5840",
-          "assetDataHash": "ddc1d8be46f8671a9f81130beab19354",
+          "assetDataHash": "8142d4a48552cc75d510ba257469fb2a",
           "assetLocator": "scripts/language_change.js",
           "isExternalAsset": true
         }
@@ -418,7 +431,7 @@
       "effectUsesAutomaticAlphaSort": false,
       "effectUsesAutomaticInstructions": true,
       "effectUsesBlockModulesConfigExtras": false,
-      "effectUsesBlocks": true,
+      "effectUsesBlocks": false,
       "effectUsesBlocksDownloadable": false,
       "effectUsesBlocksScripting": false,
       "effectUsesBodyTracking": false,
@@ -628,7 +641,7 @@
       "effectUsesUnitsScriptingModule": false,
       "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
-      "effectUsesVisualShaders": false,
+      "effectUsesVisualShaders": true,
       "effectUsesVisualShadersSdf": false,
       "effectUsesVoiceInteraction": false,
       "effectUsesWarpPostProcessor": false,
@@ -739,9 +752,6 @@
       "children": [
         {
           "sectionFileLocation": "objects/scene(1)/Scene_-_Root.material"
-        },
-        {
-          "sectionFileLocation": "objects/HiresSphere/HiresSphere_mat.material"
         },
         {
           "sectionFileLocation": "objects/scene/Circle21-FACES.material"
@@ -925,6 +935,9 @@
         },
         {
           "sectionFileLocation": "objects/scene(2)/material_0.material"
+        },
+        {
+          "sectionFileLocation": "materials/Plane Data.material"
         }
       ]
     },
@@ -954,14 +967,6 @@
           "identifier": "gltf:10710-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "sourceIdentifier": "master3_d_object_model:10716-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "assetLocator": "10711-b15b7add-98a3-4b09-a2e7-0f7811008bf4.glb",
-          "isExternalAsset": false
-        },
-        {
-          "modelName": "gltf",
-          "name": "HiresSphere",
-          "identifier": "gltf:20638-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "sourceIdentifier": "master3_d_object_model:20644-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "assetLocator": "20639-b15b7add-98a3-4b09-a2e7-0f7811008bf4.glb",
           "isExternalAsset": false
         },
         {
@@ -1614,9 +1619,6 @@
           "sectionFileLocation": "objects/scene(1)/scene.object"
         },
         {
-          "sectionFileLocation": "objects/HiresSphere/HiresSphere.object"
-        },
-        {
           "sectionFileLocation": "objects/scene/scene.object"
         },
         {
@@ -1660,31 +1662,6 @@
               "assetLocator": "objects/scene(1)/scene.bin",
               "excludeDuringExport": true,
               "isExternalAsset": true
-            }
-          ]
-        },
-        {
-          "modelName": "asset_collection_model",
-          "name": "HiresSphere",
-          "identifier": "asset_collection_model:20648-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "applicationData": [],
-          "assetDataHash": "adb002820843bc32f181c40f61e8bc81",
-          "assetLocator": "objects/HiresSphere/HiresSphere.gltf",
-          "authoringTool": "Khronos glTF Blender I/O v1.0.5",
-          "excludeDuringExport": true,
-          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/three_d_object/216224789630166",
-          "isExternalAsset": true,
-          "master3DInstanceSourceHash": "adb002820843bc32f181c40f61e8bc81",
-          "children": [
-            {
-              "modelName": "unsupportedFeatures",
-              "name": "unsupportedFeatures0",
-              "identifier": "unsupportedFeatures:20646-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-              "namesForFeatureType": {
-                "Material": [
-                  "HiresSphere_mat"
-                ]
-              }
             }
           ]
         },
@@ -2008,15 +1985,6 @@
         },
         {
           "modelName": "asset_attribution_model",
-          "identifier": "asset_attribution_model:20652-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "assetAuthor": "Spark AR Assets",
-          "assetModelIdentifier": "asset_collection_model:20648-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "assetTitle": "Hires Sphere Primitive",
-          "assetURLString": "",
-          "licenseModelIdentifier": "license_model:20650-b15b7add-98a3-4b09-a2e7-0f7811008bf4"
-        },
-        {
-          "modelName": "asset_attribution_model",
           "identifier": "asset_attribution_model:1952-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
           "assetAuthor": "manilov.ap",
           "assetModelIdentifier": "asset_collection_model:1891-9fd74f81-0b84-4fa8-aa0e-861b7ee4f73e",
@@ -2045,28 +2013,6 @@
           "identifier": "license_model:5478-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
           "linkURLString": "http://creativecommons.org/licenses/by/4.0/",
           "slug": "by"
-        },
-        {
-          "modelName": "license_model",
-          "name": "Creative Commons Attribution 4.0",
-          "identifier": "license_model:20650-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
-          "linkURLString": "https://creativecommons.org/licenses/by/4.0/",
-          "slug": "CC BY 4.0"
-        }
-      ]
-    },
-    {
-      "modelName": "block_documents_model",
-      "identifier": "block_documents_model:1884-778a727d-efac-48ec-a793-72873c0a5840",
-      "children": [
-        {
-          "modelName": "block_model",
-          "name": "block0",
-          "identifier": "block_model:6159-778a727d-efac-48ec-a793-72873c0a5840",
-          "assetDataHash": "511f78431941eec37ff147ee7e2ee401",
-          "assetLocator": "blocks/block0/block0.arblock",
-          "excludeDuringExport": true,
-          "isExternalAsset": true
         }
       ]
     },
@@ -2076,56 +2022,51 @@
       "children": [
         {
           "modelName": "sound",
-          "name": "DC3 EN.m4a",
-          "identifier": "sound:369960-778a727d-efac-48ec-a793-72873c0a5840",
-          "assetDataHash": "d28d274c10977260a1aa239a64a61cbc",
-          "assetLocator": "sounds/DC3 EN.m4a",
-          "duration": 2815.79150390625,
-          "isExternalAsset": true
-        },
-        {
-          "modelName": "sound",
-          "name": "DC3 TH.m4a",
-          "identifier": "sound:369962-778a727d-efac-48ec-a793-72873c0a5840",
-          "assetDataHash": "1bcc6289b0daef28d25cb3c5622e78a6",
-          "assetLocator": "sounds/DC3 TH.m4a",
-          "duration": 3136.41650390625,
-          "isExternalAsset": true
-        },
-        {
-          "modelName": "sound",
-          "name": "Wright EN.m4a",
-          "identifier": "sound:369964-778a727d-efac-48ec-a793-72873c0a5840",
-          "assetDataHash": "c5c350693f6b3aea2967c14a310ebd22",
-          "assetLocator": "sounds/Wright EN.m4a",
-          "duration": 2432.41650390625,
-          "isExternalAsset": true
-        },
-        {
-          "modelName": "sound",
-          "name": "Wright TH.m4a",
-          "identifier": "sound:369966-778a727d-efac-48ec-a793-72873c0a5840",
-          "assetDataHash": "61494a72ff55890ac590c06a061e2a15",
-          "assetLocator": "sounds/Wright TH.m4a",
-          "duration": 2474.208251953125,
-          "isExternalAsset": true
-        },
-        {
-          "modelName": "sound",
           "name": "Boeing EN.m4a",
-          "identifier": "sound:369968-778a727d-efac-48ec-a793-72873c0a5840",
-          "assetDataHash": "de840fbe57cf0a645d2e7f9402c578ad",
+          "identifier": "sound:8613-212f5bf2-d763-41d8-a475-796cc3547ee5",
+          "assetDataHash": "badea909fe379193b4bbb8dddccf5f56",
           "assetLocator": "sounds/Boeing EN.m4a",
-          "duration": 2388.958251953125,
+          "duration": 67129,
           "isExternalAsset": true
         },
         {
           "modelName": "sound",
           "name": "Boeing TH.m4a",
-          "identifier": "sound:369970-778a727d-efac-48ec-a793-72873c0a5840",
-          "assetDataHash": "6c2f84382f5d31f637c16ddcb66f9d60",
+          "identifier": "sound:8615-212f5bf2-d763-41d8-a475-796cc3547ee5",
+          "assetDataHash": "d1ccefb376a4e723db59008b7c48d8f3",
           "assetLocator": "sounds/Boeing TH.m4a",
-          "duration": 2389.04150390625,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "DC3 EN.m4a",
+          "identifier": "sound:8617-212f5bf2-d763-41d8-a475-796cc3547ee5",
+          "assetDataHash": "bb7f42402078d5d4e67cfa80ba0a3ba8",
+          "assetLocator": "sounds/DC3 EN.m4a",
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "DC3 TH.m4a",
+          "identifier": "sound:8619-212f5bf2-d763-41d8-a475-796cc3547ee5",
+          "assetDataHash": "69a01d55bc3bf77fab684931bd0c567e",
+          "assetLocator": "sounds/DC3 TH.m4a",
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "Wright EN.m4a",
+          "identifier": "sound:8621-212f5bf2-d763-41d8-a475-796cc3547ee5",
+          "assetDataHash": "f67adc796bd0112d5b8bd854aa1c0461",
+          "assetLocator": "sounds/Wright EN.m4a",
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "Wright TH.m4a",
+          "identifier": "sound:8623-212f5bf2-d763-41d8-a475-796cc3547ee5",
+          "assetDataHash": "9f70947998c1e5ee10ff1a9cc944e885",
+          "assetLocator": "sounds/Wright TH.m4a",
           "isExternalAsset": true
         }
       ]

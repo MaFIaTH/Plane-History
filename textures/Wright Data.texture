@@ -1,10 +1,10 @@
 {
   "modelName": "texture",
-  "name": "HDR_029_Sky_Cloudy_Bg",
-  "identifier": "texture:23116-b15b7add-98a3-4b09-a2e7-0f7811008bf4",
+  "name": "Wright Data",
+  "identifier": "texture:51865-805caec5-7514-486b-87ee-17d281bd1de1",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "82a8e55e72ca5f298bafe36fdb91c5f0",
-  "assetLocator": "textures/HDR_029_Sky_Cloudy_Bg.jpg",
+  "assetDataHash": "479ddae9572d121b80369e460be875ee",
+  "assetLocator": "textures/Wright Data.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
@@ -12,25 +12,25 @@
   "excludeFromPackage": false,
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 512,
+  "height": 384,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 1024,
+  "width": 701,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "82a8e55e72ca5f298bafe36fdb91c5f0",
-      "colorCount": 30342,
+      "assetDataHash": "479ddae9572d121b80369e460be875ee",
+      "colorCount": 219,
       "detectedAlphaChannel": "no_alpha",
-      "detectedOriginalFormat": "jpeg",
-      "entropyOfDistribution": 13.262185004436631,
-      "pixelsHigh": 512,
-      "pixelsWide": 1024
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.829480038860409,
+      "pixelsHigh": 384,
+      "pixelsWide": 701
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "wright-brothers-1907-granger",
+  "identifier": "texture:204217-212f5bf2-d763-41d8-a475-796cc3547ee5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "4ebc49c47755736099e617078ae6f1b0",
+  "assetLocator": "textures/wright-brothers-1907-granger.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 576,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 900,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "4ebc49c47755736099e617078ae6f1b0",
+      "colorCount": 185378,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 16.79820636259274,
+      "pixelsHigh": 576,
+      "pixelsWide": 900
+    }
+  ]
+}

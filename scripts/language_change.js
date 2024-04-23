@@ -35,6 +35,16 @@ export const Diagnostics = require('Diagnostics');
     Patches.inputs.setPulse('resetAudio', Reactive.once());
   }
 
+  function isPlaneFound()
+  {
+    if (wrightFoundBool || dc3FoundBool || boeingFoundBool)
+    {
+      Patches.inputs.setBoolean('planeFound', true);
+      return;
+    }
+    Patches.inputs.setBoolean('planeFound', false);
+  }
+
   const languageIndex = await Patches.outputs.getScalar('languageIndex').then(event => 
   {
     event.monitor().subscribe
@@ -57,6 +67,7 @@ export const Diagnostics = require('Diagnostics');
         {
           wrightFoundBool = values.newValue;
           Diagnostics.log('Wright Found: ' + values.newValue);
+          isPlaneFound();
           sumItUp();
           resetAudio();
         }
@@ -70,6 +81,7 @@ export const Diagnostics = require('Diagnostics');
         {
           dc3FoundBool = values.newValue;
           Diagnostics.log('DC3 Found: ' + values.newValue);
+          isPlaneFound();
           sumItUp();
           resetAudio();
         }
@@ -83,6 +95,7 @@ export const Diagnostics = require('Diagnostics');
           {
             boeingFoundBool = values.newValue;
             Diagnostics.log('Boeing Found: ' + values.newValue);
+            isPlaneFound();
             sumItUp();
             resetAudio();
           }

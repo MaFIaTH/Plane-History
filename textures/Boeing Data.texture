@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Boeing Data",
+  "identifier": "texture:51861-805caec5-7514-486b-87ee-17d281bd1de1",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "bff4b7376c74eb7eb77a82b4ad43d7ab",
+  "assetLocator": "textures/Boeing Data.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 383,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 701,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "bff4b7376c74eb7eb77a82b4ad43d7ab",
+      "colorCount": 219,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.8299942183730719,
+      "pixelsHigh": 383,
+      "pixelsWide": 701
+    }
+  ]
+}
