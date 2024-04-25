@@ -266,7 +266,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 226.00003051757812
+                        "value": 226.00015258789062
                       },
                       "hidden": false,
                       "horizontalAlignment": "left",
@@ -297,7 +297,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 1
+                        "value": 0
                       },
                       "pinnedRight": false,
                       "pinnedRightValue": {
@@ -313,7 +313,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 1
+                        "value": -230
                       },
                       "pinnedVerticalCenterValue": {
                         "unit": {
@@ -347,8 +347,8 @@
                         "sx": 1,
                         "sy": 0.9999997615814209,
                         "sz": 0.9999997615814209,
-                        "x": 0,
-                        "y": -230,
+                        "x": 1,
+                        "y": 1,
                         "z": -0.00006103515625
                       },
                       "usesFlexibleHeight": false,
